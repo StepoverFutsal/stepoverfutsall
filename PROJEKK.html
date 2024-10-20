@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Stepover Futsal Academy</title>
+    <link rel="stylesheet" type="text/css" href="CSS MAIN.css">
+    <style>
+        .mySlides {display:none;}
+        </style>
+</head>
+<body>
+
+
+
+        <header>
+            <img src="GAMBAR/FOTO STEPOVER 1.jpg" width="100%" height="250" class="gambarheader" >
+            
+            <img src="GAMBAR/STEPOVER FUTSAL ACADEMY (2560 x 800 piksel).png" class="stepover" width="100%" height="100">
+            <hr class="stripline">
+            
+              
+              <div id="main">
+                <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776;</span>
+              </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("Sidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("Sidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+
+            <div class="bglogo">
+                <img src="GAMBAR/LOGO_STEPOVER-removebg-preview.png" class="logostvr">
+                <div class="garispisah"></div>
+                <img src="GAMBAR/LOGO_AAFI-removebg-preview (1).png" class="logoaafi">
+            </div>
+
+           
+        </header>
+
+        <article>
+            <figure class="beritaterkini">Berita Terkini
+                <DIV></DIV>
+                <img src="GAMBAR/FOTO STEPOVER 1.jpg" class="gambarberita">
+           </figure>
+            
+           <div class="slider">
+            <figure>
+                <div class="slide">
+                    
+                    <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/NEWS%201.html"><img src="GAMBAR/CMAPION.jpg"></a>
+                    <p1 class="p1">Team Stepover FA U-16, berhasil menjuarai gelaran Liga AAFI Regional Bandung 1 2024</p1>
+                </div>
+    
+                <div class="slide">
+                    <p1 class="p2">Coach Salman Fathur, keluar sebagai "Best Coach", dalam gelaran Liga AAFI Regional Bandung 1 2024</p1>
+                    <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/NEWS%202.html"><img src="GAMBAR/Coach Salman.jpg"></a>
+                </div>
+    
+                <div class="slide">
+                    <p1 class="p2">Defauzi, berhasil mendpatkan gelar sebagai "Top Score", pada gelaran Liga AAFI 2024</p1>
+                    <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/NEWS%203.html"><img src="GAMBAR/Top skorer.jpg"></a>
+                </div>
+    
+                <div class="slide">
+                    <p1 class="p2">Rafi, berhasil mendapatkan gelar "Best Goalkeeper" perdananya di Liga AAFI 2024</p1>
+                    <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/NEWS%204.html"><img src="GAMBAR/Best Keeper.jpg"></a>
+                </div>
+    
+                <div class="slide">
+                    <img src="GAMBAR/FOTO STEPOVER 1.jpg">
+                </div>
+            </figure>
+        </div>        
+        </article>
+        
+        <article id="image-slider" class="u16">
+            <hr class="striplinee"></hr>
+            <div class="statistik">Statistik Pertandingan</div>
+            
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="GAMBAR/A.jpg" style="width:100%">
+                <img class="mySlides" src="GAMBAR/B.jpg" style="width:100%">
+                <img class="mySlides" src="GAMBAR/C.jpg" style="width:100%">
+                <img class="mySlides" src="GAMBAR/A.jpg" style="width:100%">
+              
+                <button class="tombolkiri" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="tombolkanan" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+              
+
+               </article>
+
+               <footer>
+                <p class="tstvfooter">STEPOVER FUTSAL ACADEMY</p>
+                <div class="stlfooterstv"></div>
+                <div class="ffooter"></div>
+                <figure>
+                    <div class="flogofooter"></div>
+                    <img src="GAMBAR/stvryelow.png" class="stvrfooter">
+                </figure>
+        
+                <div class="fjoin"></div>
+                <p class="gabung">JOIN NOW</p>
+        
+                    <div class="formfooter">
+                        <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/INDEX%20FORM.html"><div class="fjoinb"></div></a>
+                        <p class="moreinfo">MORE INFO</p>
+                    </div>
+                
+                <div class="stlfooteradress"></div>
+                <p class="sfstvrfooter">Sekolah Futsal Stepover</p>
+                <br>
+                <p class="adressfooter">Jalan Desa, No 54 Kiaracondong,<br> Kota Bandung</p>
+        
+                <br>
+                <div class="ftelpfooter"></div>
+                <img src="GAMBAR/logo_telephone_png-removebg-preview.png" class="footertelp"><p class="telpfooter">022-16062020</p>
+        
+                <br>
+                <div class="ffaxfooter"></div>
+                <img src="GAMBAR/fax_png-removebg-preview.png" class="footerfax"><p class="faxfooter">022-16062020</p>
+                
+            </footer>
+
+               
+        
+        
+    
+      
+
+</body>
+    </html>
